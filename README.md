@@ -1,6 +1,11 @@
 rrule.js
 ========
 
+Changes By nehakadam
+
+1. In order to calculate Recurrence Dates which will be before 1st January 1970, set value of `ORDINAL_BASE` a Date which you want to set as a minimum date. `ORDINAL_BASE: new Date(1901, 0, 1)`.
+
+
 **Library for working with recurrence rules for calendar dates.**
 
 rrule.js supports recurrence rules as defined in the [iCalendar
